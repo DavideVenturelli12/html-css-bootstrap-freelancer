@@ -39,32 +39,39 @@ button:active{
 
 /*** / HEADER***/
 
-.bg-green{
-    text-align: center;
-    padding: 20px 0px;
+.jumbotron{
     margin-bottom: 5%;
-    color: white;
     background-color: rgb(88, 187, 153);
 }
 
-.bg-green img{
-    width: 50%;
-    margin-bottom: 20px;
+.profile{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0;
 }
 
-.bg-green li{
+.profile img{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.profile li{
     list-style: none;
     display: inline-block;
+    margin-bottom: 30px;
 }
 
-.bg-green a{
+.profile a{
     text-decoration: none;
     color: white;
 }
 
-.bg-green a:hover{
+.profile a:hover{
     text-decoration: underline;
 }
+
+
 
 .portfolio,
 .about-title,
@@ -148,7 +155,8 @@ button:active{
 textarea{
     height: 150px;
     width: 100%;
-    border: 0;
+    padding: 5px 2%;
+    line-height: 20px;
 }
 
 #send{
@@ -157,4 +165,39 @@ textarea{
     border: 0;
     border-radius: 5px;
     color: white;
+}
+
+.social-contact{
+    padding-top: 5%;
+    background-color: rgb(74, 74, 189);
+    color: white;
+}
+
+.social{
+    justify-content: center;
+    text-align: center;
+}
+
+.social-info{
+    margin-bottom: 40px;
+}
+
+.social-info i{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.bg-copyright{
+    background-color: rgb(49, 49, 98);
+    color: white;
+}
+
+.copyright{
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
 }
