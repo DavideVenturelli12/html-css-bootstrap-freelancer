@@ -14,6 +14,27 @@ button:active{
 
 /***HEADER***/
 
+.navbar{
+    justify-content: space-around;
+    background-color: rgb(69, 69, 165) !important;
+}
+
+.dv-flex-end{
+    justify-content: end;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
 .bg-blue{
     display: flex;
     justify-content: space-between;
